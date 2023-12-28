@@ -55,13 +55,6 @@ h4 {
   margin-bottom: 18px;
 }
 
-.faq-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .dropdown {
   display: inline-block;
   margin-bottom: 40px;
@@ -77,10 +70,6 @@ h4 {
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
-}
-
-.icon {
-  cursor: pointer;
 }
 
 .icon.open {
