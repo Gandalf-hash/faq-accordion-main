@@ -14,15 +14,23 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/assets/images/background-pattern-desktop.svg");
-  background-position: top;
+  background-image: url("assets/images/background-pattern-desktop.svg#svgView(preserveAspectRatio(none))");
   background-repeat: no-repeat;
+  background-size: 100% 28.57vh;
+  background-position: auto top;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+@media screen and (max-width: 426px) {
+  body {
+    background-image: url("assets/images/background-pattern-mobile.svg#svgView(preserveAspectRatio(none))");
+    background-repeat: no-repeat;
+    background-size: 100% 35.55vh;
+  }
+}
 h1,
 h4 {
   margin: 0;
