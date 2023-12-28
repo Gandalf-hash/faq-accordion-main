@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const firstDropdown = document.querySelector(".dropdown");
+  toggleDropdown(firstDropdown);
+});
 function toggleDropdown(element) {
   const icon = element.querySelector(".icon");
   const description = element.querySelector(".description");
